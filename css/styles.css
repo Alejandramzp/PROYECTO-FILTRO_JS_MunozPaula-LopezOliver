@@ -1,0 +1,8 @@
+html {
+    background-color: #212236;
+    background-image: url(/storage/images/Cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
