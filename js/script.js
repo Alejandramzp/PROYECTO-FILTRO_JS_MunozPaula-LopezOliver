@@ -100,8 +100,8 @@ function displayRocketInfo(r) {
                 images = rocket.flickr_images;
                 images.forEach(element => {
                     document.getElementById("infoRockets").innerHTML += `
-                    <div class="imagenes">
-                        <img src="${element}">
+                    <div class="rimg">
+                        <img src="${element}" class="rimgsrc">
                     </div>
                     `;
                 });
