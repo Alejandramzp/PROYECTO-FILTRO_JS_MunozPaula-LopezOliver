@@ -143,6 +143,7 @@ html {
     position: absolute;
     color: rgb(161, 161, 161);
     font-size: 5vh;
+    font-family: "Roboto-Regular";
     margin-left: 80vh;
     margin-top: 2vh;
 }
@@ -151,6 +152,7 @@ html {
     position: absolute;
     color: rgb(161, 161, 161);
     font-size: 3vh;
+    font-family: "Roboto-Regular";
     margin-left: 68vh;
     margin-top: 7vh;
 }
@@ -190,6 +192,7 @@ html {
 .advancedinfo {
     position: absolute;
     color: rgb(161, 161, 161);
+    font-family: "Roboto-Regular";
     width: 25vh;
     height: 38vh;
     font-size: 3vh;
@@ -201,6 +204,7 @@ html {
 .stages {
     position: absolute;
     color: rgb(161, 161, 161);
+    font-family: "Roboto-Regular";
     width: 25vh;
     height: 38vh;
     font-size: 3vh;
@@ -212,6 +216,7 @@ html {
 .engines {
     position: absolute;
     color: rgb(161, 161, 161);
+    font-family: "Roboto-Regular";
     width: 30vh;
     height: 38vh;
     font-size: 3vh;
@@ -223,6 +228,7 @@ html {
 .payloadWeights {
     position: absolute;
     color: rgb(161, 161, 161);
+    font-family: "Roboto-Regular";
     width: 30vh;
     height: 38vh;
     font-size: 3vh;
