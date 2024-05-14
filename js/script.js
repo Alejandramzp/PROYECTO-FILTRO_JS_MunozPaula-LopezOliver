@@ -119,10 +119,11 @@ function displayRocketInfo(r) {
 class rocket4 extends HTMLElement{
     constructor(){
         super();
-        this.innerHTML =`<button id="botonRocket" onclick="displayRocketInfo(0)">1</button>
-        <button id="botonRocket" onclick="displayRocketInfo(1)">2</button>
-        <button id="botonRocket" onclick="displayRocketInfo(2)">3</button>
-        <button id="botonRocket" onclick="displayRocketInfo(3)">4</button>`;
+        this.innerHTML =`
+        <button class="rbtn1" id="botonRocket" onclick="displayRocketInfo(0)">1</button>
+        <button class="rbtn2" id="botonRocket" onclick="displayRocketInfo(1)">2</button>
+        <button class="rbtn3" id="botonRocket" onclick="displayRocketInfo(2)">3</button>
+        <button class="rbtn4" id="botonRocket" onclick="displayRocketInfo(3)">4</button>`;
     }    
 }
 customElements.define('botones-rockets',rocket4)
