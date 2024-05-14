@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../storage/font/Roboto-Regular.ttf') format('truetype');
+}  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto-Regular";
+    color: #ffffff;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1c48;
+    background-image: url('/storage/images/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------------------------------*/
+.footer {
+    position: fixed;
+    background-color: #101336;
+    bottom: 0;
+    left:20.1vi;
+    width: 59.8vi;
+    height: 5vi;
+    border-top-left-radius: 2vi;
+    border-top-right-radius: 2vi;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 58vi;
+    position: relative;
+}
+ul li{
+    display: flex;
+    margin: 0.8vi;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3vi;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.iconos {
+    width: 2.2vi;
+    height: 2.2vi;
+}
+/*---------------------------------------*/
+botones-capsules {
+    display: flex;
+    justify-content: right;
+}
+botones-capsules button{
+    width: 2vi;
+    color: #12132b;
+}
