@@ -48,3 +48,51 @@ html {
     margin-left: 105vh;
     margin-top: 81.5vh;
 }
+
+.rbtn1 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    width: 6vh;
+    height: 6vh;
+    font-size: 4vh;
+    border-color: #1a1c48;
+    margin-left: 24vh;
+    margin-top: 80vh;
+}
+
+.rbtn2 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    width: 6vh;
+    height: 6vh;
+    font-size: 4vh;
+    border-color: #1a1c48;
+    margin-left: 32vh;
+    margin-top: 80vh;
+}
+
+.rbtn3 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    width: 6vh;
+    height: 6vh;
+    font-size: 4vh;
+    border-color: #1a1c48;
+    margin-left: 40vh;
+    margin-top: 80vh;
+}
+
+.rbtn4 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    width: 6vh;
+    height: 6vh;
+    font-size: 4vh;
+    border-color: #1a1c48;
+    margin-left: 48vh;
+    margin-top: 80vh;
+}
