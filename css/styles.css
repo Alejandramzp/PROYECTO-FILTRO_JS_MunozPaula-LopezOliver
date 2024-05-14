@@ -112,3 +112,87 @@ html {
     margin-left: 68vh;
     margin-top: 17vh;
 }
+
+.rdesc {
+    position: absolute;
+}
+
+.rwiki {
+    position: absolute;
+    width: 4vh;
+    height: auto;
+    margin-left: 84vh;
+    margin-top: 76vh;
+}
+
+.generalinfo {
+    position: absolute;
+    color: white;
+    width: 20vh;
+    height: 60vh;
+    font-size: 2vh;
+    margin-left: 23vh;
+    margin-top: 15vh;
+    overflow-y: auto;
+}
+
+.advancedinfo {
+    position: absolute;
+    color: white;
+    width: 20vh;
+    height: 28vh;
+    font-size: 2vh;
+    margin-left: 45vh;
+    margin-top: 27vh;
+    overflow-y: auto;
+}
+
+.stages {
+    position: absolute;
+    color: white;
+    width: 20vh;
+    height: 28vh;
+    font-size: 2vh;
+    margin-left: 109vh;
+    margin-top: 27vh;
+    overflow-y: auto;
+}
+
+.engines {
+    position: absolute;
+    color: white;
+    width: 20vh;
+    height: 35vh;
+    font-size: 2vh;
+    margin-left: 131vh;
+    margin-top: 50vh;
+    overflow-y: auto;
+}
+
+.payloadWeights {
+    position: absolute;
+    color: white;
+    width: 20vh;
+    height: 25vh;
+    font-size: 2vh;
+    margin-left: 131vh;
+    margin-top: 15vh;
+    overflow-y: auto;
+}
+
+.rimg {
+    position: absolute;
+    color: white;
+    width: 35vh;
+    height: 28vh;
+    font-size: 2vh;
+    margin-left: 69vh;
+    margin-top: 27vh;
+    overflow-x: auto;
+}
+
+.rimgsrc {
+    position: relative;
+    width: 37vh;
+    height: auto;
+}
