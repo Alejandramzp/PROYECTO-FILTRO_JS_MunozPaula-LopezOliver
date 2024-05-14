@@ -7,6 +7,7 @@ fetch(rocketsUrl)
         data.forEach(rocketData => {
             let rocketsInfo = document.getElementById("infoRockets");
             rocketsInfo.innerHTML =``;
+            displayRocketInfo(1)
         });
         
     })
@@ -91,16 +92,15 @@ function displayRocketInfo(r) {
                 <p><strong>Kg:</strong><br><span style="color: white;"> ${rocket.payload_weights[0].kg}</p>
                 <p><strong>Lb:</strong><br><span style="color: white;"> ${rocket.payload_weights[0].lb}</p>
                 </div>
+                <div class="rimg">
+                <img src="${rocket.flickr_images[1]}" class="rimgsrc">
+                <img src="${rocket.flickr_images[2]}" class="rimgsrc">
+                <img src="${rocket.flickr_images[3]}" class="rimgsrc">
+                <img src="${rocket.flickr_images[4]}" class="rimgsrc"> 
+                </div>
                 `;
                 //---------------------IMAGENES-------------------
-                images = rocket.flickr_images;
-                images.forEach(element => {
-                    document.getElementById("infoRockets").innerHTML += `
-                    <div class="rimg">
-                        <img src="${element}" class="rimgsrc">
-                    </div>
-                    `;
-                });
+
             }
         })
         .catch((error) => console.log(error));
@@ -117,11 +117,3 @@ class rocket4 extends HTMLElement{
     }    
 }
 customElements.define('botones-rockets',rocket4)
-function mostarInfoRockets(){
-    document.getElementById('infoRockets').style.display = 'block';
-    document.getElementById('br').style.display = 'block';
-    document.getElementById('infoCapsules').style.display = 'none';
-    document.getElementById('bc').style.display = 'none';
-    document.getElementById('infoHistory').style.display = 'none';
-    document.getElementById('bh').style.display = 'none';
-}
