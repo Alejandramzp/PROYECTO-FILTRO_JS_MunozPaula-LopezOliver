@@ -96,3 +96,19 @@ html {
     margin-left: 48vh;
     margin-top: 80vh;
 }
+
+.rname {
+    position: absolute;
+    color: white;
+    font-size: 5vh;
+    margin-left: 80vh;
+    margin-top: 11vh;
+}
+
+.rid {
+    position: absolute;
+    color: white;
+    font-size: 3vh;
+    margin-left: 68vh;
+    margin-top: 17vh;
+}
