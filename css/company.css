@@ -23,6 +23,75 @@ body {
     justify-content: center;
     align-items: center;
 }
+#frame{
+    position: absolute;
+    top: 10vi;
+    left: 24vi;
+}
+.web{
+    width: 45vi;
+    height: 32vi;
+}
+.name{
+    position: absolute;
+    font-size: 5vi;
+    top: 1vi;
+    left: 40vi;
+
+}
+#redes{
+    position: absolute;
+    bottom: 6vi;
+    left: 40vi;
+    width: 20vi;
+    display: flex;
+    justify-content: space-around;
+}
+.ph{
+    width: 4vi;
+}
+.tw{
+    width: 5vi;
+}
+.f1{
+    width: 1.5vi;
+}
+#info1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 4vi;
+    top: 5vi;
+    width: 30vi;
+}
+#info1 span{
+    color: #54587d;
+    font-size: 1.5vi;
+}
+#info1 p{
+    font-size: 1.5vi;
+    position: relative;
+    left: 3vi;
+}
+#info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 6vi;
+    top: 11vi;
+    width: 22vi;
+}
+#info2 span{
+    color: #54587d;
+    font-size: 1.5vi;
+}
+#info2 p{
+    font-size: 1.5vi;
+    position: relative;
+    left: 3vi;
+}
 /*---------------------------------------*/
 .footer {
     position: fixed;
