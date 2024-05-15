@@ -25,52 +25,55 @@ body {
 }
 .capsula{
     position: absolute;
-    top: 15vi;
-    left: 41vi;
-    width: 18vi;
+    top: 13vi;
+    left: 38vi;
+    width: 22vi;
     height: 30vi;
 }
 #serial{
-    font-size: 2vi;
+    font-size: 3vi;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#serial p{
+#serial p strong{
     color: #54587d;
-    font-size: 1.5vi;
+    font-size: 1.2vi;
+}
+#serial p{
+    font-size: 1.2vi;
 }
 #patch img{
     position: absolute;
     width: 14vi;
     top:2vi;
-    right: 5vi;
+    right: 6vi;
 }
 #enlaces{
     position: absolute;
-    bottom: 4vi;
-    right: 3vi;
-    width: 15vi;
+    bottom: 6.5vi;
+    left: 26vi;
+    width: 60vi;
     display: flex;
     justify-content: space-around;
 }
 .youtube{
-    width: 4vi;
+    width: 3vi;
 }
 .wiki{
-    width: 4vi;
+    width: 3vi;
 }
 .f1{
-    width: 3vi;
+    width: 2vi;
 }
 #infoCapsules{
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    top:10vi;
-    left: 5vi;
+    top:7vi;
+    left: 6vi;
     width: 30vi;
 }
 #infoCapsules span{
@@ -80,15 +83,15 @@ body {
 #infoCapsules p{
     font-size: 2vi;
     position: relative;
-    left: 6vi;
+    left: 4vi;
 }
 #last{
     display: flex;
     flex-direction: column;
     position: absolute;
     width: 23vi;
-    top: 25vi;
-    right: 7vi;
+    top: 35vi;
+    left: 6vi;
 }
 #last span{
     color: #54587d;
@@ -100,13 +103,14 @@ body {
     left: 4vi;
 }
 .l1{
-    width: 3vi;
+    width: 2vi;
 }
 #lanza1{
     position: absolute;
     width: 17vi;
-    top: 35vi;
-    right:20vi;
+    height: 10vi;
+    top: 18.5vi;
+    right:9.5vi;
     border: #ffffff solid;
     border-radius: 1vi;
     display: flex;
@@ -125,8 +129,9 @@ body {
 #lanza2{
     position: absolute;
     width: 20vi;
-    top: 20vi;
-    left: 23vi;
+    height: 13vi;
+    top: 30vi;
+    right: 8vi;
     border: #ffffff solid;
     border-radius: 1vi;
     display: flex;

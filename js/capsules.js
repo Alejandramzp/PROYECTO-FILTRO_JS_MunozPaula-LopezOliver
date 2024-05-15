@@ -58,13 +58,13 @@ function displayCapsuleInfo(c){
                     document.getElementById("patch").innerHTML=`
                         <img src="${data2.links.patch.small}">
                     `;
-                    document.getElementById("lanza1").innerHTML += `
+                    document.getElementById("lanza1").innerHTML = `
                         <span><img class="l1" src="/storage/lanzamiento1.png"><strong>Launches:</strong></span>
                         <p class=""><strong>Name:</strong> ${data2.name}</p>
                         <p class=""><strong>Window:</strong> ${data2.window}</p>
                         <p class=""><strong>Success:</strong> ${data2.success}</p>
                     `;
-                    document.getElementById("lanza2").innerHTML += `	
+                    document.getElementById("lanza2").innerHTML = `	
                         <span><img class="l1" src="/storage/lanzamiento2.png"><strong>Launches:</strong></span>
                         <p class=""><strong>Flight number:</strong> ${data2.flight_number}</p>
                         <p class=""><strong>Date local:</strong> ${data2.date_local}</p>
