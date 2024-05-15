@@ -23,7 +23,161 @@ body {
     justify-content: center;
     align-items: center;
 }
-/*---------------------------------------*/
+.capsula{
+    position: absolute;
+    top: 15vi;
+    left: 41vi;
+    width: 18vi;
+    height: 30vi;
+}
+#serial{
+    font-size: 2vi;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#serial p{
+    color: #54587d;
+    font-size: 1.5vi;
+}
+#patch img{
+    position: absolute;
+    width: 14vi;
+    top:2vi;
+    right: 5vi;
+}
+#enlaces{
+    position: absolute;
+    bottom: 4vi;
+    right: 3vi;
+    width: 15vi;
+    display: flex;
+    justify-content: space-around;
+}
+.youtube{
+    width: 4vi;
+}
+.wiki{
+    width: 4vi;
+}
+.f1{
+    width: 3vi;
+}
+#infoCapsules{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top:10vi;
+    left: 5vi;
+    width: 30vi;
+}
+#infoCapsules span{
+    color: #54587d;
+    font-size: 2vi;
+}
+#infoCapsules p{
+    font-size: 2vi;
+    position: relative;
+    left: 6vi;
+}
+#last{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 23vi;
+    top: 25vi;
+    right: 7vi;
+}
+#last span{
+    color: #54587d;
+    font-size: 2vi;
+}
+#last p{
+    font-size: 2vi;
+    position: relative;
+    left: 4vi;
+}
+.l1{
+    width: 3vi;
+}
+#lanza1{
+    position: absolute;
+    width: 17vi;
+    top: 35vi;
+    right:20vi;
+    border: #ffffff solid;
+    border-radius: 1vi;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#lanza1 strong{
+    color: #54587d;
+    font-size: 1.6vi;
+}
+#lanza1 p{
+    font-size: 1.4vi;
+    position: relative;
+    left: 4vi;
+}
+#lanza2{
+    position: absolute;
+    width: 20vi;
+    top: 20vi;
+    left: 23vi;
+    border: #ffffff solid;
+    border-radius: 1vi;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#lanza2 strong{
+    color: #54587d;
+    font-size: 1.6vi;
+}
+#lanza2 p{
+    font-size: 1.4vi;
+    position: relative;
+    left: 4vi;
+}
+/*------------------BOTONES------------------*/
+botones-capsules {
+    position: absolute;
+    bottom: 4vi;
+    left: 1.5vi;
+    width: 18vi;
+    height: 4.4vi;
+    overflow-x: scroll;
+    display: flex;
+}
+::-webkit-scrollbar {
+    background-color: white;
+    width: 2vi;
+    height: 0.5vi;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #54587d;
+    border-radius: 1vi;
+    width: 2vi;
+}
+botones-capsules button{
+    color: white;
+    font-size: 1.6vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 7vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
+}
+botones-capsules button:hover{
+    background: white;
+    color: #191b3f;
+}
+/*----------------FOOTER-----------------------*/
 .footer {
     position: fixed;
     background-color: #101336;
@@ -60,11 +214,3 @@ ul li a {
     height: 2.2vi;
 }
 /*---------------------------------------*/
-botones-capsules {
-    display: flex;
-    justify-content: right;
-}
-botones-capsules button{
-    width: 2vi;
-    color: #12132b;
-}
