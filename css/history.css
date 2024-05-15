@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../storage/font/Roboto-Regular.ttf') format('truetype');
+}  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #1a1c48;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.uibg {
+    position: absolute;
+    width: 177vh;
+    height: 99vh;
+}
+
+.bar {
+    position: absolute;
+    width: 125vh;
+    margin-left: 26vh;
+    margin-top: 88vh;
+}
+
+.overviewicon {
+    position: absolute;
+    width: 4vh;
+    margin-left: 65vh;
+    margin-top: 92.5vh;
+}
+
+.rocketicon {
+    position: absolute;
+    width: 4vh;
+    margin-left: 79vh;
+    margin-top: 92.5vh;
+}
+
+.historyicon {
+    position: absolute;
+    width: 4vh;
+    margin-left: 93vh;
+    margin-top: 92.5vh;
+}
+
+.capsuleicon {
+    position: absolute;
+    width: 4vh;
+    margin-left: 108vh;
+    margin-top: 92.5vh;
+}
+
+.overviewtxt {
+    position: absolute;
+    color: white;
+    font-size: 2vh;
+    font-family: "Roboto-Regular";
+    margin-left: 63vh;
+    margin-top: 96vh;
+}
+
+.rockettxt {
+    position: absolute;
+    color: white;
+    font-size: 2vh;
+    font-family: "Roboto-Regular";
+    margin-left: 77.5vh;
+    margin-top: 96vh;
+}
+
+.historytxt {
+    position: absolute;
+    color: white;
+    font-size: 2vh;
+    font-family: "Roboto-Regular";
+    margin-left: 92vh;
+    margin-top: 96vh;
+}
+
+.capsuletxt {
+    position: absolute;
+    color: white;
+    font-size: 2vh;
+    font-family: "Roboto-Regular";
+    margin-left: 106.5vh;
+    margin-top: 96vh;
+}
+
+.infoPrincipal {
+    position: absolute;
+    width: 70vh;
+    height: 80vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.htitle {
+    position: absolute;
+    color: white;
+    font-size: 5vh;
+    font-family: 'Roboto-Regular';
+}
+
+.hid {
+    position: absolute;
+    color: white;
+    font-size: 3vh;
+    font-family: 'Roboto-Regular';
+    margin-top: 8vh;
+    margin-left: 1vh;
+}
+
+.hd1 {
+    position: absolute;
+    color: white;
+    font-size: 3vh;
+    font-family: 'Roboto-Regular';
+    margin-top: 17vh;
+    margin-left: 1vh;
+}
+
+.hd2 {
+    position: absolute;
+    color: white;
+    font-size: 3vh;
+    font-family: 'Roboto-Regular';
+    margin-top: 26vh;
+    margin-left: 1vh;
+}
+
+.hdetails {
+    position: absolute;
+    color: white;
+    font-size: 3vh;
+    font-family: 'Roboto-Regular';
+    margin-top: 35vh;
+    margin-left: 1vh;
+}
+
+.articulo {
+    position: absolute;
+    width: 100vh;
+    height: 80vh;
+    margin-left: 72vh;
+    margin-top: 8vh;
+}
+
+.btn1 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 4vh;
+    margin-top: 80vh;
+}
+
+.btn2 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 10vh;
+    margin-top: 80vh;
+}
+
+.btn3 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 16vh;
+    margin-top: 80vh;
+}
+
+.btn4 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 22vh;
+    margin-top: 80vh;
+}
+
+.btn5 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 28vh;
+    margin-top: 80vh;
+}
+
+.btn6 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 4vh;
+    margin-top: 86vh;
+}
+
+.btn7 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 10vh;
+    margin-top: 86vh;
+}
+
+.btn8 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 16vh;
+    margin-top: 86vh;
+}
+
+.btn9 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 22vh;
+    margin-top: 86vh;
+}
+
+.btn10 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 28vh;
+    margin-top: 86vh;
+}
+
+.btn11 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 4vh;
+    margin-top: 92vh;
+}
+
+.btn12 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 10vh;
+    margin-top: 92vh;
+}
+
+.btn13 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 16vh;
+    margin-top: 92vh;
+}
+
+.btn14 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 22vh;
+    margin-top: 92vh;
+}
+
+.btn15 {
+    position: absolute;
+    background-color: #1a1c48;
+    color: white;
+    font-family: 'Roboto-Regular';
+    width: 4vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-color: #1a1c48;
+    margin-left: 28vh;
+    margin-top: 92vh;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 0.8vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #307bdd;
+    border-radius: 3vh;
+    width: 0.1vh;
+}
