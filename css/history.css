@@ -6,778 +6,216 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto-Regular";
+    color: #ffffff;
 }
-html {
+body {
+    margin: 0;
+    padding: 0;
     background-color: #1a1c48;
+    background-image: url('/storage/images/Background.png');
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
-
-.uibg {
-    position: absolute;
-    width: 177vh;
-    height: 99vh;
+/*----------------FOOTER-----------------------*/
+.footer {
+    position: fixed;
+    background-color: #101336;
+    bottom: 0;
+    left:20.1vi;
+    width: 59.8vi;
+    height: 5vi;
+    border-top-left-radius: 2vi;
+    border-top-right-radius: 2vi;
 }
-
-.bar {
-    position: absolute;
-    width: 125vh;
-    margin-left: 26vh;
-    margin-top: 88vh;
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 58vi;
+    position: relative;
 }
-
-.overviewicon {
-    position: absolute;
-    width: 4vh;
-    margin-left: 65vh;
-    margin-top: 92.5vh;
+ul li{
+    display: flex;
+    margin: 0.8vi;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3vi;
 }
-
-.rocketicon {
-    position: absolute;
-    width: 4vh;
-    margin-left: 79vh;
-    margin-top: 92.5vh;
-}
-
-.historyicon {
-    position: absolute;
-    width: 4vh;
-    margin-left: 93vh;
-    margin-top: 92.5vh;
-}
-
-.capsuleicon {
-    position: absolute;
-    width: 4vh;
-    margin-left: 108vh;
-    margin-top: 92.5vh;
-}
-
-.overviewtxt {
-    position: absolute;
+ul li a {
+    text-decoration: none;
     color: white;
-    font-size: 2vh;
-    font-family: "Roboto-Regular";
-    margin-left: 63vh;
-    margin-top: 96vh;
+    cursor: pointer;
 }
-
-.rockettxt {
-    position: absolute;
-    color: white;
-    font-size: 2vh;
-    font-family: "Roboto-Regular";
-    margin-left: 77.5vh;
-    margin-top: 96vh;
+.iconos {
+    width: 2.2vi;
+    height: 2.2vi;
 }
-
-.historytxt {
-    position: absolute;
-    color: white;
-    font-size: 2vh;
-    font-family: "Roboto-Regular";
-    margin-left: 92vh;
-    margin-top: 96vh;
-}
-
-.capsuletxt {
-    position: absolute;
-    color: white;
-    font-size: 2vh;
-    font-family: "Roboto-Regular";
-    margin-left: 106.5vh;
-    margin-top: 96vh;
-}
-
-.infoPrincipal {
-    position: absolute;
-    width: 70vh;
-    height: 80vh;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
+/*---------------------------------------*/
 .htitle {
     position: absolute;
     color: white;
-    font-size: 5vh;
-    font-family: 'Roboto-Regular';
+    font-size: 3.5vi;
+    top: 1vi;
+    left: 2vi;
 }
-
-.hid {
+.infoPrincipal{
     position: absolute;
     color: white;
-    font-size: 3vh;
-    font-family: 'Roboto-Regular';
-    margin-top: 8vh;
-    margin-left: 1vh;
+    top:8vi;
+    left: 6vi;
+    width: 25vi;
+    font-size: 1.5vi;
+    overflow: auto;
 }
-
-.hd1 {
-    position: absolute;
-    color: white;
-    font-size: 3vh;
-    font-family: 'Roboto-Regular';
-    margin-top: 17vh;
-    margin-left: 1vh;
+.infoPrincipal strong{
+    color: #54587d;
 }
-
-.hd2 {
-    position: absolute;
-    color: white;
-    font-size: 3vh;
-    font-family: 'Roboto-Regular';
-    margin-top: 26vh;
-    margin-left: 1vh;
+.infoPrincipal span{
+    left: 1vi;
 }
-
-.hdetails {
-    position: absolute;
-    color: white;
-    font-size: 3vh;
-    font-family: 'Roboto-Regular';
-    margin-top: 35vh;
-    margin-left: 1vh;
-}
-
 .articulo {
     position: absolute;
-    width: 100vh;
-    height: 80vh;
-    margin-left: 72vh;
-    margin-top: 8vh;
+    width: 55vi;
+    height: 38vi;
+    top: 7vi;
+    right: 4vi;
 }
-
-.btn1 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 4vh;
-    margin-top: 80vh;
-}
-
-.btn2 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 10vh;
-    margin-top: 80vh;
-}
-
-.btn3 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 16vh;
-    margin-top: 80vh;
-}
-
-.btn4 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 22vh;
-    margin-top: 80vh;
-}
-
-.btn5 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 28vh;
-    margin-top: 80vh;
-}
-
-.btn6 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 4vh;
-    margin-top: 86vh;
-}
-
-.btn7 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 10vh;
-    margin-top: 86vh;
-}
-
-.btn8 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 16vh;
-    margin-top: 86vh;
-}
-
-.btn9 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 22vh;
-    margin-top: 86vh;
-}
-
-.btn10 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 28vh;
-    margin-top: 86vh;
-}
-
-.btn11 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 4vh;
-    margin-top: 92vh;
-}
-
-.btn12 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 10vh;
-    margin-top: 92vh;
-}
-
-.btn13 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 16vh;
-    margin-top: 92vh;
-}
-
-.btn14 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 22vh;
-    margin-top: 92vh;
-}
-
-.btn15 {
-    position: absolute;
-    color: white;
-    font-size: 2vi; 
-    padding: 0.4vi; 
-    cursor: pointer; 
-    border-radius: 0.5vi; 
-    width: 3vi;
-    height: 3vi;
-    background-color: #191b3f; 
-    border: 0.2vi solid #54587d;
-    margin-left: 28vh;
-    margin-top: 92vh;
-}
-
-.page {
-    display: none;
-}
-
-button:hover{
-    background: white;
-    color: #191b3f;
-}
-
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 0.8vh;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #307bdd;
+    background-color: #54587d;
     border-radius: 3vh;
     width: 0.1vh;
 }
+botones-history {
+    position: absolute;
+    bottom: 4vi;
+    left: 1.5vi;
+    width: 18vi;
+    height: 4.4vi;
+    overflow-x: scroll;
+    display: flex;
+}
+botones-history button{
+    color: white;
+    font-size: 1.6vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 7vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
+}
+botones-history button:hover{
+    background: white;
+    color: #191b3f;
+}
+/*------------------Media-Query-------------------*/
+@media screen and (max-width: 820px){
 
-@media (max-width: 390px){
-    html {
-        background-color:#242539;
-        background-size: cover;
-        width: 100vw;
-        height: 100vh;
-    }
-    
-    .uibg {
-        position: absolute;
-        width: 46vh;
-        height: 100vh;
-        transform: scaleY(-1);
-    }
-    
-    .bar {
-        position: absolute;
-        width: 80vh;
-        margin-left: -17vh;
-        margin-top: 0.1vh;
-        transform: scaleY(-1);
-    }
-    
-    .overviewicon {
-        position: absolute;
-        width: 4vh;
-        margin-left: 6vh;
-        margin-top: 0.2vh;
-    }
-    
-    .rocketicon {
-        position: absolute;
-        width: 4vh;
-        margin-left: 16vh;
-        margin-top: 0.2vh;
-    }
-    
-    .historyicon {
-        position: absolute;
-        width: 4vh;
-        margin-left: 27vh;
-        margin-top: 0.2vh;
-    }
-    
-    .capsuleicon {
-        position: absolute;
-        width: 4vh;
-        margin-left: 37vh;
-        margin-top: 0.2vh;
-    }
-    
-    .overviewtxt {
-        position: absolute;
-        color: white;
-        font-size: 2vh;
-        font-family: "Roboto-Regular";
-        margin-left: 63vh;
-        margin-top: 96vh;
-        display: none;
-    }
-    
-    .rockettxt {
-        position: absolute;
-        color: white;
-        font-size: 2vh;
-        font-family: "Roboto-Regular";
-        margin-left: 77.5vh;
-        margin-top: 96vh;
-        display: none;
-    }
-    
-    .historytxt {
-        position: absolute;
-        color: white;
-        font-size: 2vh;
-        font-family: "Roboto-Regular";
-        margin-left: 92vh;
-        margin-top: 96vh;
-        display: none;
-    }
-    
-    .capsuletxt {
-        position: absolute;
-        color: white;
-        font-size: 2vh;
-        font-family: "Roboto-Regular";
-        margin-left: 106.5vh;
-        margin-top: 96vh;
-        display: none;
-    }
-    .infoPrincipal {
-        position: absolute;
-        width: 45vh;
-        height: 80vh;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-    
-    .htitle {
-        position: absolute;
-        color: white;
-        font-size: 3vh;
-        font-family: 'Roboto-Regular';
-        margin-top: 25vh;
-        margin-left: 1vh;
-    }
-    
-    .hid {
-        position: absolute;
-        color: white;
-        font-size: 3vh;
-        font-family: 'Roboto-Regular';
-        margin-top: 21vh;
-        margin-left: 1vh;
-    }
-    
-    .hd1 {
-        position: absolute;
-        color: white;
-        font-size: 3vh;
-        font-family: 'Roboto-Regular';
-        margin-top: 28vh;
-        margin-left: 1vh;
-    }
-    
-    .hd2 {
-        position: absolute;
-        color: white;
-        font-size: 3vh;
-        font-family: 'Roboto-Regular';
-        margin-top: 34vh;
-        margin-left: 1vh;
-    }
-    
-    .hdetails {
-        position: absolute;
-        color: white;
-        font-size: 3vh;
-        font-family: 'Roboto-Regular';
-        margin-top: 42vh;
-        margin-left: 1vh;
-    }
-    
-    .articulo {
-        position: absolute;
-        width: 100vh;
-        height: 80vh;
-        margin-left: 72vh;
-        margin-top: 8vh;
-        display: none;
-    }
-    
-    .btn1 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 10vh;
-        margin-top: 5vh;
-    }
-    
-    .btn2 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 16vh;
-        margin-top: 5vh;
-    }
-    
-    .btn3 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 22vh;
-        margin-top: 5vh;
-    }
-    
-    .btn4 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 28vh;
-        margin-top: 5vh;
-    }
-    
-    .btn5 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 34vh;
-        margin-top: 5vh;
-    }
+  .footer {
+    position: fixed;
+    top: 0;
+    left:20.1vi;
+    width: 59.8vi;
+    height: 16vi;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 3vi; 
+    border-bottom-right-radius: 3vi; 
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 58vi;
+}
+ul li{
+    display: flex;
+    margin: 0.8vi;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 3vi;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.iconos {
+    width: 11vi;
+    height: 9vi;
+}
+/*---------------------------------------*/
+.htitle {
+    position: absolute;
+    color: white;
+    font-size: 5vi;
+    top: 34vi;
+    left: 17vi;
+}
+.infoPrincipal{
+    position: absolute;
+    color: white;
+    top:52vi;
+    left: 30vi;
+    width: 50vi;
+    font-size: 3.5vi;
+    overflow: auto;
+}
+.infoPrincipal strong{
+    color: #54587d;
+}
+.infoPrincipal span{
+    left: 1vi;
+}
+.articulo {
+    display: none;
+}
+botones-history {
+    position: absolute;
+    top: 19vi;
+    left: 35vi;
+    width: 32vi;
+    height: 11vi;
+    overflow-x: scroll;
+    display: flex;
+}
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 2vi;
+    height: 0.5vi;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #54587d;
+    border-radius: 1vi;
+    width: 2vi;
+}
+botones-history button{
+    color: white;
+    font-size: 3vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 18vi;
+    height: 9vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
+}
 
-    .btn6 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 10vh;
-        margin-top: 11vh;
-    }
-    
-    .btn7 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 16vh;
-        margin-top: 11vh;
-    }
-    
-    .btn8 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 22vh;
-        margin-top: 11vh;
-    }
-    
-    .btn9 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 28vh;
-        margin-top: 11vh;
-    }
-    
-    .btn10 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 34vh;
-        margin-top: 11vh;
-    }
-    
-    .btn11 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 10vh;
-        margin-top: 17vh;
-    }
-    
-    .btn12 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 16vh;
-        margin-top: 17vh;
-    }
-    
-    .btn13 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 22vh;
-        margin-top: 17vh;
-    }
-    
-    .btn14 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 28vh;
-        margin-top: 17vh;
-    }
-    
-    .btn15 {
-        position: absolute;
-        color: white;
-        font-size: 6vi; 
-        padding: 0.4vi; 
-        cursor: pointer; 
-        border-radius: 0.5vi; 
-        width: 10vi;
-        height: 10vi;
-        background-color: #191b3f; 
-        border: 0.2vi solid #54587d;
-        margin-left: 34vh;
-        margin-top: 17vh;
-    }
-
-    .page {
-        display: block;
-        position: absolute;
-        width: 10vh;
-        height: auto;
-        margin-top: 85vh;
-        margin-left: 17vh;
-    }
 }

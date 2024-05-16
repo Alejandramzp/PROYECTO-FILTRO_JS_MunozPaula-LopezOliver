@@ -36,19 +36,19 @@ body {
     position: absolute;
     font-size: 5vi;
     top: 1vi;
-    left: 40vi;
+    left: 38vi;
 
 }
 #redes{
     position: absolute;
-    bottom: 6vi;
-    left: 40vi;
+    top: 43.2vi;
+    left: 38vi;
     width: 20vi;
     display: flex;
     justify-content: space-around;
 }
 .ph{
-    width: 4vi;
+    width: 3.5vi;
 }
 .tw{
     width: 5vi;
@@ -128,12 +128,91 @@ ul li a {
     width: 2.2vi;
     height: 2.2vi;
 }
-/*---------------------------------------*/
-botones-company {
-    display: flex;
-    justify-content: right;
-}
-botones-company button{
-    width: 2vi;
-    color: #12132b;
+/*------------------Media-Query-------------------*/
+@media screen and (max-width: 820px){
+    #frame{
+        display: none;
+    }
+    .web{
+       display: none;
+    }
+    .name{
+        position: absolute;
+        font-size: 12vi;
+        top: 18vi;
+        left: 29vi;
+    
+    }
+    #redes{
+        display: none;
+    }
+    .ph{
+        display: none;
+    }
+    .tw{
+        display: none;
+    }
+    .f1{
+        width: 5vi;
+    }
+    #info1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        left: 31vi;
+        top: 43vi;
+        width: 40vi;
+    }
+    #info1 span{
+        color: #54587d;
+        font-size: 5vi;
+    }
+    #info1 p{
+        font-size: 5vi;
+        position: relative;
+        left: 3vi;
+    }
+    #info2{
+        display: none;
+    }
+   
+    /*---------------------------------------*/
+    .footer {
+        position: fixed;
+        top: 0;
+        left:20.1vi;
+        width: 59.8vi;
+        height: 16vi;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 3vi; 
+        border-bottom-right-radius: 3vi; 
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+        width: 58vi;
+    }
+    ul li{
+        display: flex;
+        margin: 0.8vi;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 3vi;
+    }
+    ul li a {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+    .iconos {
+        width: 11vi;
+        height: 9vi;
+    }
+    /*---------------------------------------*/
+    
 }

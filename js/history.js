@@ -20,18 +20,17 @@ function displayHistoryInfo(h) {
             const history = data[h];
             if (history) {
                 document.getElementById("infoHistory").innerHTML = `
-                <div class="infoPrincipal">
-                    <h2 class="htitle">${history.title}</h2><br><br><br><br><br>
-                    <p class="hid"><strong>ID:</strong><br><span style="color: grey;">${history.id}</p><br><br>
-                    <p class="hd1"><strong>Event date utc:</strong><br><span style="color: grey;">${history.event_date_utc}</p><br><br>
-                    <p class="hd2"><strong>Event date unix:</strong><br><span style="color: grey;">${history.event_date_unix}</p><br><br>
-                    <p class="hdetails"><strong>Details:</strong><br><span style="color: grey;">${history.details}</p><br><br>
-                </div>
+                <h2 class="htitle">${history.title}</h2><br>
                 <iframe class="articulo" src="${history.links.article}" frameborder="0"></iframe>
-                <a href="${history.links.article}" target="_blank">
-                <img src="/storage/pages-svgrepo-com.svg" class="page">
-                </a>
                 `;
+                document.getElementById("infoHistory").innerHTML += `
+                <div class="infoPrincipal">
+                    <p class="hid"><strong>ID:</strong><br><span>${history.id}</span></p><br><br>
+                    <p class="hd1"><strong>Event date utc:</strong><br><span>${history.event_date_utc}</span></p><br><br>
+                    <p class="hd2"><strong>Event date unix:</strong><br><span>${history.event_date_unix}</span></p><br><br>
+                    <p class="hdetails"><strong>Details:</strong><br><span>${history.details}</span></p><br><br>
+                </div>
+                `;    
             }
         })
         .catch((error) => console.log(error));
