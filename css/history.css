@@ -152,197 +152,236 @@ html {
 
 .btn1 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 4vh;
     margin-top: 80vh;
 }
 
 .btn2 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 10vh;
     margin-top: 80vh;
 }
 
 .btn3 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 16vh;
     margin-top: 80vh;
 }
 
 .btn4 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 22vh;
     margin-top: 80vh;
 }
 
 .btn5 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 28vh;
     margin-top: 80vh;
 }
 
 .btn6 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 4vh;
     margin-top: 86vh;
 }
 
 .btn7 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 10vh;
     margin-top: 86vh;
 }
 
 .btn8 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 16vh;
     margin-top: 86vh;
 }
 
 .btn9 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 22vh;
     margin-top: 86vh;
 }
 
 .btn10 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 28vh;
     margin-top: 86vh;
 }
 
 .btn11 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 4vh;
     margin-top: 92vh;
 }
 
 .btn12 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 10vh;
     margin-top: 92vh;
 }
 
 .btn13 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 16vh;
     margin-top: 92vh;
 }
 
 .btn14 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 22vh;
     margin-top: 92vh;
 }
 
 .btn15 {
     position: absolute;
-    background-color: #1a1c48;
     color: white;
-    font-family: 'Roboto-Regular';
-    width: 4vh;
-    height: 4vh;
-    font-size: 2vh;
-    border-color: #1a1c48;
+    font-size: 2vi; 
+    padding: 0.4vi; 
+    cursor: pointer; 
+    border-radius: 0.5vi; 
+    width: 3vi;
+    height: 3vi;
+    background-color: #191b3f; 
+    border: 0.2vi solid #54587d;
     margin-left: 28vh;
     margin-top: 92vh;
+}
+
+.page {
+    display: none;
+}
+
+button:hover{
+    background: white;
+    color: #191b3f;
 }
 
 ::-webkit-scrollbar {
@@ -354,4 +393,391 @@ html {
     background-color: #307bdd;
     border-radius: 3vh;
     width: 0.1vh;
+}
+
+@media (max-width: 390px){
+    html {
+        background-color:#242539;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .uibg {
+        position: absolute;
+        width: 46vh;
+        height: 100vh;
+        transform: scaleY(-1);
+    }
+    
+    .bar {
+        position: absolute;
+        width: 80vh;
+        margin-left: -17vh;
+        margin-top: 0.1vh;
+        transform: scaleY(-1);
+    }
+    
+    .overviewicon {
+        position: absolute;
+        width: 4vh;
+        margin-left: 6vh;
+        margin-top: 0.2vh;
+    }
+    
+    .rocketicon {
+        position: absolute;
+        width: 4vh;
+        margin-left: 16vh;
+        margin-top: 0.2vh;
+    }
+    
+    .historyicon {
+        position: absolute;
+        width: 4vh;
+        margin-left: 27vh;
+        margin-top: 0.2vh;
+    }
+    
+    .capsuleicon {
+        position: absolute;
+        width: 4vh;
+        margin-left: 37vh;
+        margin-top: 0.2vh;
+    }
+    
+    .overviewtxt {
+        position: absolute;
+        color: white;
+        font-size: 2vh;
+        font-family: "Roboto-Regular";
+        margin-left: 63vh;
+        margin-top: 96vh;
+        display: none;
+    }
+    
+    .rockettxt {
+        position: absolute;
+        color: white;
+        font-size: 2vh;
+        font-family: "Roboto-Regular";
+        margin-left: 77.5vh;
+        margin-top: 96vh;
+        display: none;
+    }
+    
+    .historytxt {
+        position: absolute;
+        color: white;
+        font-size: 2vh;
+        font-family: "Roboto-Regular";
+        margin-left: 92vh;
+        margin-top: 96vh;
+        display: none;
+    }
+    
+    .capsuletxt {
+        position: absolute;
+        color: white;
+        font-size: 2vh;
+        font-family: "Roboto-Regular";
+        margin-left: 106.5vh;
+        margin-top: 96vh;
+        display: none;
+    }
+    .infoPrincipal {
+        position: absolute;
+        width: 45vh;
+        height: 80vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+    .htitle {
+        position: absolute;
+        color: white;
+        font-size: 3vh;
+        font-family: 'Roboto-Regular';
+        margin-top: 25vh;
+        margin-left: 1vh;
+    }
+    
+    .hid {
+        position: absolute;
+        color: white;
+        font-size: 3vh;
+        font-family: 'Roboto-Regular';
+        margin-top: 21vh;
+        margin-left: 1vh;
+    }
+    
+    .hd1 {
+        position: absolute;
+        color: white;
+        font-size: 3vh;
+        font-family: 'Roboto-Regular';
+        margin-top: 28vh;
+        margin-left: 1vh;
+    }
+    
+    .hd2 {
+        position: absolute;
+        color: white;
+        font-size: 3vh;
+        font-family: 'Roboto-Regular';
+        margin-top: 34vh;
+        margin-left: 1vh;
+    }
+    
+    .hdetails {
+        position: absolute;
+        color: white;
+        font-size: 3vh;
+        font-family: 'Roboto-Regular';
+        margin-top: 42vh;
+        margin-left: 1vh;
+    }
+    
+    .articulo {
+        position: absolute;
+        width: 100vh;
+        height: 80vh;
+        margin-left: 72vh;
+        margin-top: 8vh;
+        display: none;
+    }
+    
+    .btn1 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 10vh;
+        margin-top: 5vh;
+    }
+    
+    .btn2 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 16vh;
+        margin-top: 5vh;
+    }
+    
+    .btn3 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 22vh;
+        margin-top: 5vh;
+    }
+    
+    .btn4 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 28vh;
+        margin-top: 5vh;
+    }
+    
+    .btn5 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 34vh;
+        margin-top: 5vh;
+    }
+
+    .btn6 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 10vh;
+        margin-top: 11vh;
+    }
+    
+    .btn7 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 16vh;
+        margin-top: 11vh;
+    }
+    
+    .btn8 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 22vh;
+        margin-top: 11vh;
+    }
+    
+    .btn9 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 28vh;
+        margin-top: 11vh;
+    }
+    
+    .btn10 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 34vh;
+        margin-top: 11vh;
+    }
+    
+    .btn11 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 10vh;
+        margin-top: 17vh;
+    }
+    
+    .btn12 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 16vh;
+        margin-top: 17vh;
+    }
+    
+    .btn13 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 22vh;
+        margin-top: 17vh;
+    }
+    
+    .btn14 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 28vh;
+        margin-top: 17vh;
+    }
+    
+    .btn15 {
+        position: absolute;
+        color: white;
+        font-size: 6vi; 
+        padding: 0.4vi; 
+        cursor: pointer; 
+        border-radius: 0.5vi; 
+        width: 10vi;
+        height: 10vi;
+        background-color: #191b3f; 
+        border: 0.2vi solid #54587d;
+        margin-left: 34vh;
+        margin-top: 17vh;
+    }
+
+    .page {
+        display: block;
+        position: absolute;
+        width: 10vh;
+        height: auto;
+        margin-top: 85vh;
+        margin-left: 17vh;
+    }
 }
