@@ -28,6 +28,9 @@ function displayHistoryInfo(h) {
                     <p class="hdetails"><strong>Details:</strong><br><span style="color: grey;">${history.details}</p><br><br>
                 </div>
                 <iframe class="articulo" src="${history.links.article}" frameborder="0"></iframe>
+                <a href="${history.links.article}" target="_blank">
+                <img src="/storage/pages-svgrepo-com.svg" class="page">
+                </a>
                 `;
             }
         })
